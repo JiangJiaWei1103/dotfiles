@@ -150,6 +150,11 @@ alias kn="kubectl --namespace"
 alias kapi="kubectl api-resources"
 alias kga="kubectl get all"
 
+# ++ MISC
+alias ra="ranger"
+alias top="btop"
+eval "$(zoxide init zsh --cmd cd)"
+
 # ++ GO
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 export GOROOT=$(go env GOROOT)
